@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EF189E327F40C4600852132 /* PokemonCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF189E227F40C4600852132 /* PokemonCollectionViewController.swift */; };
+		5EF189E527F4D7F100852132 /* PokeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF189E427F4D7F100852132 /* PokeCollectionViewCell.swift */; };
 		DBD9B69227E9652B00BBC9E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9B69127E9652B00BBC9E0 /* AppDelegate.swift */; };
 		DBD9B69427E9652B00BBC9E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9B69327E9652B00BBC9E0 /* SceneDelegate.swift */; };
 		DBD9B69627E9652B00BBC9E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9B69527E9652B00BBC9E0 /* ViewController.swift */; };
 		DBD9B69927E9652B00BBC9E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD9B69727E9652B00BBC9E0 /* Main.storyboard */; };
 		DBD9B69B27E9652B00BBC9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD9B69A27E9652B00BBC9E0 /* Assets.xcassets */; };
 		DBD9B69E27E9652B00BBC9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD9B69C27E9652B00BBC9E0 /* LaunchScreen.storyboard */; };
+		DBD9B6A627E9654E00BBC9E0 /* PokeAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9B6A527E9654E00BBC9E0 /* PokeAPIHelper.swift */; };
+		DBD9B6A827E9657600BBC9E0 /* PokeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9B6A727E9657600BBC9E0 /* PokeImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EF189E227F40C4600852132 /* PokemonCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewController.swift; sourceTree = "<group>"; };
+		5EF189E427F4D7F100852132 /* PokeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCollectionViewCell.swift; sourceTree = "<group>"; };
 		DBD9B68E27E9652B00BBC9E0 /* PokiAPIGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokiAPIGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD9B69127E9652B00BBC9E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBD9B69327E9652B00BBC9E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		DBD9B69A27E9652B00BBC9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBD9B69D27E9652B00BBC9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBD9B69F27E9652B00BBC9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD9B6A527E9654E00BBC9E0 /* PokeAPIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAPIHelper.swift; sourceTree = "<group>"; };
+		DBD9B6A727E9657600BBC9E0 /* PokeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				DBD9B69127E9652B00BBC9E0 /* AppDelegate.swift */,
 				DBD9B69327E9652B00BBC9E0 /* SceneDelegate.swift */,
 				DBD9B69527E9652B00BBC9E0 /* ViewController.swift */,
+				5EF189E227F40C4600852132 /* PokemonCollectionViewController.swift */,
+				5EF189E427F4D7F100852132 /* PokeCollectionViewCell.swift */,
+				DBD9B6A527E9654E00BBC9E0 /* PokeAPIHelper.swift */,
+				DBD9B6A727E9657600BBC9E0 /* PokeImage.swift */,
 				DBD9B69727E9652B00BBC9E0 /* Main.storyboard */,
 				DBD9B69A27E9652B00BBC9E0 /* Assets.xcassets */,
 				DBD9B69C27E9652B00BBC9E0 /* LaunchScreen.storyboard */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD9B6A827E9657600BBC9E0 /* PokeImage.swift in Sources */,
 				DBD9B69627E9652B00BBC9E0 /* ViewController.swift in Sources */,
 				DBD9B69227E9652B00BBC9E0 /* AppDelegate.swift in Sources */,
 				DBD9B69427E9652B00BBC9E0 /* SceneDelegate.swift in Sources */,
+				5EF189E527F4D7F100852132 /* PokeCollectionViewCell.swift in Sources */,
+				5EF189E327F40C4600852132 /* PokemonCollectionViewController.swift in Sources */,
+				DBD9B6A627E9654E00BBC9E0 /* PokeAPIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,19 +305,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GT4U45ZK35;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PokiAPIGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jv658.PokiAPIGallery;
+				PRODUCT_BUNDLE_IDENTIFIER = ashishsurti.PokiAPIGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -316,19 +335,22 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GT4U45ZK35;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PokiAPIGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jv658.PokiAPIGallery;
+				PRODUCT_BUNDLE_IDENTIFIER = ashishsurti.PokiAPIGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
